@@ -1,0 +1,38 @@
+html {
+    font-size: 10px;
+}
+
+  *,
+  *::after,
+  *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --color-black: #343434;
+    --color-light: #f5f5f5;
+    --color-blue: #3e79e6;
+    --color-green: #1CA593;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.title {
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: var(--color-green);
+}
