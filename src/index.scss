@@ -15,10 +15,9 @@ a {
 }
 
 :root {
-    --color-black: #343434;
-    --color-light: #f5f5f5;
-    --color-blue: #3e79e6;
-    --color-green: #1CA593;
+    --color-black: #050522;
+    --color-pink: #EF5858;
+    --color-yellow: #FFDE69;
 }
 
 .column {
@@ -29,10 +28,4 @@ a {
 .row {
     display: flex;
     flex-direction: row;
-}
-
-.title {
-    font-size: 5rem;
-    text-transform: uppercase;
-    color: var(--color-green);
 }
