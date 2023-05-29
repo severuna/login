@@ -1,10 +1,12 @@
 import React from 'react';
+import Page from '../../components/module/Page/Page';
+import LoginForm from './LoginForm/LoginForm';
 
 const Login = () => {
     return (
-        <div>
-            <h1 className='title'>Login</h1>
-        </div>
+        <Page variant={'Login'} content={<>
+            <LoginForm />
+        </>} />
     );
 };
 

@@ -1,0 +1,14 @@
+.page {
+    padding: 2.5rem;
+    gap: 2.5rem;
+    background-color: var(--back-form);
+    border-radius: var(--border-radius);
+    max-width: 50rem;
+    width: 100%;
+
+    &_title {
+        color: var(--color-black);
+        font-weight: 700;
+        font-size: 3rem;
+    }
+}

@@ -1,0 +1,28 @@
+.form {
+    gap: 2.4rem;
+    align-items: center;
+
+    &-footer {
+        font-size: 1.8rem;
+        color: var(--color-black);
+        font-weight: 600;
+    
+        a {
+            color: var(--color-pink);
+        }
+    }
+
+    &-label {
+        width: 100%;
+        gap: 1.8rem;
+
+        span {
+            font-size: 2rem;
+            color: var(--color-black);
+            font-weight: 600;
+            text-transform: capitalize;
+        }
+    }
+    
+}
+

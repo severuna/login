@@ -1,11 +1,13 @@
 import React from 'react';
 import './Register.scss';
+import Page from '../../components/module/Page/Page';
 
 const Register = () => {
     return (
-        <div>
-            <h1 className='title'>Register</h1>
-        </div>
+        <Page variant={'Register'} content={
+            <>
+            </>
+        }/>
     );
 };
 
